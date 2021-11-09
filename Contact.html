@@ -7,7 +7,55 @@
 </head>
 
 <style>
+    .contact {
+        display: inline-block;
+    }
 
+    .contact .titlee {
+        text-align: center;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 45px;
+
+
+        color: #66FCF1;
+    }
+
+    .contact .content {
+        display: flex;
+    }
+
+    .contact .content img {
+        width: 189px;
+        height: 212px;
+    }
+
+    .content {
+        margin-left: 10%;
+        padding: 50px;
+        width: 50%;
+    }
+
+    .content span {
+        margin-left: 20px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        
+        color: #fff;
+    }
+    .contact .inputs input, textarea{
+        width: 100%;
+        background: transparent;
+        border-color: #66FCF1;
+        align-content: center;
+        margin:20px;
+
+        color: #66FCF1;
+
+
+    }
 </style>
 
 <body>
@@ -30,6 +78,28 @@
             <li><a href="About.html">About</a></li>
             <li><a href="Contact.html" class="active">Contact</a></li>
         </ul>
+    </div>
+
+    <div class="contact">
+        <div class="titlee">
+            <span class="titlee">WHAT MY CLIENTS SAY</span>
+        </div>
+        <div class="content">
+            <img src="imgs/Mask Group.png" alt="">
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis aliquet neque, nunc enim lorem.
+                Interdum sed arcu neque sit. Ornare habitant at ut volutpat vitae sem.</span>
+        </div>
+
+        <div class="inputs">
+            <div class="fields">
+                <input type="text" placeholder="Name">
+                <br>
+                <input type="text" placeholder="Email">
+                <br>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+            </div>
+            
+        </div>
     </div>
 
 
