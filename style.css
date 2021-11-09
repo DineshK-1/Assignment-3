@@ -235,3 +235,44 @@ body {
     border-color: #202125;
     transition: background 0.2s ease-in;
 }
+
+.Projects {
+    display: inline-block;
+}
+
+.Projects .imgs img {
+    margin: 60px;
+    width: 352px;
+    height: 269px;
+}
+
+.Projects .imgs img:hover {
+    width: 476px;
+    height: 364px;
+    transition: all 0.2s ease-in;
+}
+
+.Projects .headerr {
+    height: 80px;
+}
+.Projects .headerr span {
+    margin-left: 15%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 45px;
+    color: #fff;
+}
+
+
+.Projects .headerr span:hover {
+    text-decoration: underline;
+    text-decoration-color: #66FCF1;
+    transition: text-decoration 0.2s ease-in;
+}
+
+.activee {
+    text-decoration: underline;
+    text-decoration-color: #66FCF1;
+}
