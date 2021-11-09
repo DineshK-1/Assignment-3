@@ -279,7 +279,9 @@ body {
 }
 
 .Services {
-    display: inline-block;
+    display: inline-flex;
+    vertical-align: top;
+    margin-top: 50px;
 }
 
 .box {
