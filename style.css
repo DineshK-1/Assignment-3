@@ -342,11 +342,17 @@ body {
 
 
 .about {
-    display: inline-block;
+    display: inline-flex;
+    vertical-align: top;
+    margin-top: 40px;
 }
 
 .about .flex {
     display: inline-flex;
+}
+
+.About .flex .row {
+    width: 800px;
 }
 
 .About .flex .row img {
