@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins-Regular.ttf);
+  }
+
 body {
     margin: 0;
     display: block;
@@ -71,6 +76,7 @@ body {
 }
 
 .navbar{
+    display: inline-block;
     margin-top: 30px;
 }
 
@@ -105,4 +111,127 @@ body {
 
 .navbar li a:hover {
     background-color: #1A1F33;
+}
+
+.Home {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.Home span {
+    position: absolute;
+    width: 233px;
+    height: 66px;
+    left: 357px;
+    top: 383px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: #FFFFFF;
+}
+
+.Home .ABC {
+    position: absolute;
+    width: 485px;
+    height: 92px;
+    left: 357px;
+    top: 418px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 90px;
+
+    color: #66FCF1;
+}
+
+.Home .light {
+    position: absolute;
+    width: 414px;
+    height: 43px;
+    left: 357px;
+    top: 510px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+
+}
+
+.Home .Img {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: 500px;
+    top: -450px;
+}
+
+.hire {
+    padding: 0px;
+
+    position: absolute;
+    width: 276px;
+    height: 66px;
+    left: 357px;
+    top: 561px;
+
+    background: #66FCF1;
+    border-radius: 6px;
+
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    align-items: center;
+    text-align: center;
+
+    color: #202125;
+}
+
+.hire:hover {
+    background: #202125;
+    color: #66FCF1;
+    border-color: #66FCF1;
+    transition: background 0.2s ease-in;
+}
+
+.know {
+    padding: 0px;
+
+    position: absolute;
+    width: 275px;
+    height: 66px;
+    left: 652px;
+    top: 564px;
+
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    align-items: center;
+    text-align: center;
+    background: #0B0C10;
+    border: 2px solid #66FCF1;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.know:hover {
+    background: #66FCF1;
+    color: #202125;
+    border-color: #202125;
+    transition: background 0.2s ease-in;
 }
