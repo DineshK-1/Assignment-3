@@ -329,6 +329,18 @@ body {
     color: #fff;
 }
 
+.box:hover{
+    background-color: #66FCF1;
+    transition: all 0.2s ease-in;
+}
+.box:hover .head, .box:hover .desc, .box:hover img{
+    filter: invert(4%) sepia(5%) saturate(2845%) hue-rotate(191deg) brightness(95%) contrast(98%);
+    color: #0B0C10;
+    transition: all 0.2s ease-in;
+}
+
+
+
 .about {
     display: inline-block;
 }
