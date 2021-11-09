@@ -203,7 +203,7 @@ body {
     background: #202125;
     color: #66FCF1;
     border-color: #66FCF1;
-    transition: background 0.2s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 .know {
