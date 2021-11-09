@@ -107,10 +107,12 @@ body {
 .active {
     background-color: #1A1F33;
     border: 2px solid #66FCF1;
+    text-decoration: underline #66FCF1 !important;
 }
 
 .navbar li a:hover {
     background-color: #1A1F33;
+    text-decoration: underline #66FCF1 !important;
     transition: all 0.2s ease-in;
 }
 
