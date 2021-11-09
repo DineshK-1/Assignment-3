@@ -8,6 +8,7 @@
 
 <style>
     .contact {
+        vertical-align:top;
         display: inline-block;
     }
 
@@ -42,19 +43,59 @@
         font-family: Poppins;
         font-style: normal;
         font-weight: normal;
-        
+
         color: #fff;
     }
-    .contact .inputs input, textarea{
-        width: 100%;
+
+    .contact .inputs {
+        display: inline-flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .contact .inputs input {
+        height: 40px;
+    }
+
+    .contact .inputs input,
+    textarea {
+        border-style: solid;
+        width: 500px;
         background: transparent;
         border-color: #66FCF1;
         align-content: center;
-        margin:20px;
+        margin: 20px;
 
         color: #66FCF1;
 
 
+    }
+
+    .break {
+        height: 100%;
+        border-style: solid;
+        border: 2px;
+        border-color: white;
+    }
+
+    .contact .right .bold {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+
+        color: #66FCF1;
+    }
+
+    .contact .right p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+
+        color: #fff;
     }
 </style>
 
@@ -98,8 +139,18 @@
                 <br>
                 <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
             </div>
-            
+            <div class="break"></div>
+            <div class="right">
+                <p class="bold">Phone</p>
+                <p>+91 98876 52232</p>
+                <p class="bold">Email</p>
+                <p>abcperson@gmail.com</p>
+                <p class="bold">Address</p>
+                <p>H 213, ABC Street,
+                    Delhi, India</p>
+            </div>
         </div>
+
     </div>
 
 
